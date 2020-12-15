@@ -288,7 +288,7 @@ class MdMainFrame(wx.Frame):
         @var nameTMPprofile: in case if 'profile editor is on' this var holds name oof temporaly jinja profile
         @var batch: if true multiple editing metadata of maps is ON
         '''
-        wx.Frame.__init__(self, None, title="Metadata Editor", size=(650, 500))
+        wx.Frame.__init__(self, None, title="Metadata Editor New Test", size=(650, 500))
         self.initDefaultPathStorageMetadata()
 
         self.config = wx.Config("g.gui.metadata")
